@@ -1,0 +1,11 @@
+{application, erlangplus,
+ [
+  {description, "Erlang Syntax, Rethought"},
+  {vsn, git},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
